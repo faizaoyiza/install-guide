@@ -1,4 +1,34 @@
+# ⚙️ Jenkins CI/CD Project
 
+
+## 📌 Overview
+Jenkins is an open-source automation server that helps automate:
+- Building applications
+- Running tests
+- Deploying to servers, containers, or cloud environments
+- Monitoring jobs and pipelines
+
+
+## 🛠️ Features
+- Jenkins pipeline as code with **Jenkinsfile**
+- Integration with **GitHub Webhooks**
+- Docker-based build agents
+- CI/CD stages: **Build → Test → Deploy**
+- Example jobs for:
+  - Running unit tests
+  - Building Docker images
+  - Deploying to Kubernetes/AWS/VMs
+
+---
+
+## 📂 Project Structure
+```bash
+jenkins-project/
+├── Jenkinsfile              # Pipeline definition
+├── docker-compose.yml       # Optional Jenkins setup in Docker
+├── jobs/                    # Example job configs
+├── scripts/                 # Shell/automation scripts
+└── README.md                # Documentation
 # ⚙️ Jenkins Installation & Setup Guide (Windows)
 
 ## 🔧 Step 1: Install Java (Required)
